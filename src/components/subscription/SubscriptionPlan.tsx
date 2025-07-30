@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import aboutImg from "/public/images/about-one.png";
 
-const AboutUsContent1 = () => {
+const subscriptionplan = () => {
   return (
     <>
       <div className="about-area ptb-80">
@@ -68,4 +68,4 @@ const AboutUsContent1 = () => {
   );
 };
 
-export default AboutUsContent1;
+export default subscriptionplan;

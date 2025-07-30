@@ -34,7 +34,7 @@ const menuData: MenuItem[] = [
   },
   { label: "Portfolio", href: "/portfolio/" },
   { label: "Contact", href: "/contact/" },
-  { label: "SubscriptionPlan", href: "/ubscriptionPlan/" },
+  { label: "Subscription", href: "/subscriptionplan/" },
 ];
 
 const Navbar: React.FC = () => {
