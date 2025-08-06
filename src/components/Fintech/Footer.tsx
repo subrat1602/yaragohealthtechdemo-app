@@ -17,6 +17,7 @@ const Footer = () => {
     { name: "Products", href: "/products" },
     { name: "Portfolio", href: "/portfolio" },
     { name: "Contact", href: "/contact" },
+    { name: "Subscription Plan", href: "/subscriptionplan" },
   ];
 
   const contactInfo = {
