@@ -265,7 +265,7 @@ const SubscriptionWebsite = () => {
                     <Star key={i} className="starIcon" />
                   ))}
                 </div>
-                <p className="testimonialContent">"{testimonial.content}"</p>
+                <p className="testimonialContent">{testimonial.content}</p>
                 <div className="testimonialAuthor">
                   <div className="authorName">{testimonial.name}</div>
                   <div className="authorRole">{testimonial.role}, {testimonial.company}</div>
