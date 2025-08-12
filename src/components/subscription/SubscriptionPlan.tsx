@@ -13,8 +13,8 @@ const SubscriptionWebsite = () => {
     starter: {
       name: 'Starter',
       description: 'Perfect for individuals getting started',
-      monthly: 9,
-      yearly: 90,
+      monthly: 20,
+      yearly: 200,
       features: [
         'Up to 5 projects',
         '10GB storage',
@@ -27,10 +27,10 @@ const SubscriptionWebsite = () => {
     pro: {
       name: 'Pro',
       description: 'Best for growing businesses',
-      monthly: 29,
-      yearly: 290,
+      monthly: 45,
+      yearly: 450,
       features: [
-        'Unlimited projects',
+        'Unlimited projects', 
         '100GB storage',
         'Priority support',
         'Advanced analytics',
@@ -265,7 +265,7 @@ const SubscriptionWebsite = () => {
                     <Star key={i} className="starIcon" />
                   ))}
                 </div>
-                <p className="testimonialContent">{testimonial.content}</p>
+                <p className="testimonialContent">"{testimonial.content}"</p>
                 <div className="testimonialAuthor">
                   <div className="authorName">{testimonial.name}</div>
                   <div className="authorRole">{testimonial.role}, {testimonial.company}</div>

@@ -5,7 +5,6 @@ import GoogleMap from "../../components/Contact/GoogleMap";
 import ContactForm from "../../components/Contact/ContactForm";
 import Footer from "@/components/Fintech/Footer";
 import Navbar from "@/components/HealthTech/Navbar";
-
 export default function Page() {
   return (
     <>
@@ -14,6 +13,8 @@ export default function Page() {
       <PageBanner pageTitle="Contact Us" />
 
       <ContactForm />
+
+  
 
       <ContactInfo />
 
