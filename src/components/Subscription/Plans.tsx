@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Check, Star, Menu, X, ArrowRight, Shield, Zap, Users } from 'lucide-react';
 
 
-const SubscriptionPlan = () => {
+const Plans = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [selectedPlan, setSelectedPlan] = useState('pro');
   const [billingCycle, setBillingCycle] = useState('monthly');
@@ -331,4 +331,4 @@ const SubscriptionPlan = () => {
   );
 };
 
-export default SubscriptionPlan;
+export default Plans;

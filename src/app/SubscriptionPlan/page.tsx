@@ -1,6 +1,6 @@
 import React from "react";
 import PageBanner from "../../components/Common/PageBanner";
-import SubscriptionPlan from "../../components/Subscription/SubscriptionPlan";
+import Subscription from "../../components/Subscription/Plans";
 import CTA from "@/components/PCRepair/CTA";
 import Footer from "@/components/Fintech/Footer";
 import Navbar from "@/components/HealthTech/Navbar";
@@ -13,7 +13,7 @@ export default function Page() {
 
       <PageBanner pageTitle="SubscriptionPlan" />
 
-      <SubscriptionPlan />
+      <Subscription />
 
       <CTA />
 
